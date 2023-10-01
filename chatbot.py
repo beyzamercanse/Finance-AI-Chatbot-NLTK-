@@ -1,4 +1,4 @@
-#Meet FinanceBot: Your Financial Assistant
+# Meet FinanceBot: Your Financial Assistant
 
 # import necessary libraries
 import io
@@ -45,7 +45,8 @@ def LemNormalize(text):
 
 # Keyword Matching
 GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up", "hey",)
-GREETING_RESPONSES = ["hi", "hey", "*nods*", "hi there", "hello", "I am glad! You are talking to me"]
+GREETING_RESPONSES = ["hi", "hey", "*nods*", "hi there",
+                      "hello", "I am glad! You are talking to me"]
 
 
 def greeting(sentence):
@@ -67,7 +68,8 @@ def response(user_response):
     flat.sort()
     req_tfidf = flat[-2]
     if req_tfidf == 0:
-        finance_response = finance_response + "I am sorry! I don't really understand you"
+        finance_response = finance_response + \
+            "I am sorry! I don't really understand you right now."
         return finance_response
     else:
         finance_response = finance_response + sent_tokens[idx]
@@ -79,8 +81,8 @@ print("FinanceBot: Hello! I'm FinanceBot, your financial assistant. I can help y
 while flag:
     user_response = input()
     user_response = user_response.lower()
-    if user_response != 'bye':
-        if user_response == 'thanks' or user_response == 'thank you!':
+    if user_response != 'BYE! ':
+        if user_response == 'Thanks' or user_response == 'Thank You!':
             flag = False
             print("FinanceBot: You are more than welcome!")
         else:
