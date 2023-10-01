@@ -1,0 +1,31 @@
+
+Conversational AI Overview
+
+Introduction
+A Conversational AI, commonly known as a chatbot, is a computer program or artificial intelligence designed to conduct conversations via auditory or textual methods. These programs aim to simulate human-like behavior, often passing the Turing test to convincingly engage in conversations. Chatbots find application in various practical scenarios, including customer service, information acquisition, and more.
+
+Evolution and Background
+The term "ChatterBot" was coined by Michael Mauldin in 1994. Today, chatbots are accessed through virtual assistants like Google Assistant, messaging apps such as Facebook Messenger, and organizational websites. They serve diverse purposes, spanning conversational commerce, analytics, customer support, education, finance, and more.
+
+In the 1950s, Alan Turing's Turing test laid the foundation for evaluating a computer's conversational intelligence. This sparked interest in programs like Joseph Weizenbaum's ELIZA in 1966, which, while not claiming true intelligence, could convincingly engage users. ELIZA's approach, involving pattern-matching and predefined responses, showcased the ease of generating an illusion of understanding.
+
+Development and Notable Chatbots
+Historically, ELIZA and PARRY (1972) were early chatbots. Modern ones like A.L.I.C.E., Jabberwacky, and D.U.D.E integrate functionalities beyond conversation, including games and web searching. Natural Language Processing (NLP) is a significant field in AI research, and while some chatbots rely on pattern matching, advancements like Jabberwacky employ real-time learning and evolutionary algorithms.
+
+Competitions such as the Loebner Prize and The Chatterbox Challenge focus on evaluating chatbots, but there's yet to be a general-purpose conversational artificial intelligence.
+
+Application and Use Cases
+Chatbots are widely deployed on messaging apps, facilitating B2C interactions, customer service, and marketing. They are integrated into company apps, websites, and internal platforms for various purposes, from finance and HR to IoT projects. Some notable examples include airlines using chatbots for customer service and e-commerce platforms deploying chatbots for product information.
+
+Toys have also incorporated chatbots, as seen with Hello Barbie and educational toys powered by IBM's Watson.
+
+Chatbot Creation and Development Lifecycle
+The process of creating a chatbot involves design, building, analytics, and maintenance. Design focuses on defining the interaction, personality, and user testing. Building requires understanding user intent, often utilizing NLP, and generating responses. Analytics monitor usage for improvements, and ongoing maintenance is crucial for keeping chatbots up to date.
+
+Development Platforms and APIs
+Cloud-based chatbot development platforms like Yekaliva, Oracle Cloud Platform, SnatchBot, and IBM Watson offer NLP, AI, and Mobile Backend as a Service. Various APIs are available for building custom chatbots, providing flexibility and customization.
+
+Ethical Considerations
+While chatbots offer immense utility, there are concerns about malicious use, including spamming and attempts to extract personal information. Responsible development and usage are essential to mitigate such risks.
+
+This overview provides a glimpse into the diverse landscape of conversational AI, showcasing its evolution, applications, development processes, and the ethical considerations surrounding its deployment.
